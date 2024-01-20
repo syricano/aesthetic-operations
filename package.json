@@ -1,0 +1,19 @@
+{
+    "name": "aesthetic-operations",
+    "version": "1.0.0",
+    "description": "Aesthetic Operations Website",
+    "scripts": {
+      "start": "echo 'No start script specified'",
+      "build": "echo 'No build script specified'"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "private": true,
+    "main": "index.html",
+    "keywords": [],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/syricano/aesthetic-operations"
+    }
+  }
+  
