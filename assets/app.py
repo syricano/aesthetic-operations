@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/submit_form', method=['POST'])
+@app.route('/submit_form', methods=['POST'])
 def submit_form():
     name = request.form.get('name')
     email = request.form.get('email')
@@ -14,7 +14,9 @@ def submit_form():
     # Add logic to handle the form data (e.g., store in a database)
     return 'Form submitted successfully!'
 
+
 if __name__ == '__main__':
-    app.run(debug=true)
+    app.run(debug=True)
+
 
     
